@@ -1,0 +1,13 @@
+/* Class selection in CSS */
+.box {
+  height: 300px;
+  width: 500px;
+  background-color: #7020D1;
+}
+
+/* .circle{
+  height: 300px;
+  width: 300px;
+  background-color: #7020D1;
+  border-radius: 100%;
+} */

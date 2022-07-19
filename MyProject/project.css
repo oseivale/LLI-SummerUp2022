@@ -23,10 +23,47 @@ a{
   height: 100vh;
   background-position: left bottom;
   background-size: cover;
-  background-image: url("https://coffeeshopibiza.com/wp-content/uploads/2021/09/Coffee-shop.jpg");
+  background-image: linear-gradient(to top, rgba(27, 13, 52, 70%), rgba(27, 13, 52, 70%)), url("https://coffeeshopibiza.com/wp-content/uploads/2021/09/Coffee-shop.jpg");
 }
 
 .main-header h1 {
   color: white;
   font-size: 8rem;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+.main-header h3 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+.main-header-content{
+  position: relative;
+  top: 20%;
+}
+
+.main-header-btn{
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #2643E3;
+  font-size: 1.5rem;
+  color: #ffffff;
+  border-radius: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 2rem 0
+}
+
+.about-section, .contact-section{
+  display: flex;
+}
+
+.contact-section .column{
+  width: 30%;
+}
+
+.about-section .column{
+  width: 50%;
 }
