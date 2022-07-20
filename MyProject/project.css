@@ -56,14 +56,32 @@ a{
   margin: 2rem 0
 }
 
-.about-section, .contact-section{
+.about-section,
+.contact-section,
+.blog-section{
   display: flex;
+}
+
+.column-wrapper{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1060px;
+  width: 100%;
+}
+
+.about-img{
+  /* width: 200px; */
 }
 
 .contact-section .column{
   width: 30%;
 }
 
+.blog-section .column{
+  width: 30%;
+}
+
 .about-section .column{
+  padding: 2rem;
   width: 50%;
 }
